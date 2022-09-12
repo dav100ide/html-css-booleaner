@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(../images/pattern.png);
+  background-size: contain;
+  background-color: #4ea0ff;
+  border-top: 15px solid #4ea0ff;
+}
+/* header styling */
+.logo-container {
+  padding-top: 30px;
+  width: 200px;
+}
+/* /header styling */
