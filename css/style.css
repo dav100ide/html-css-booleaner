@@ -12,6 +12,7 @@ main {
 header {
   background-image: url(../images/pattern.png);
   background-size: contain;
+  background-repeat: repeat-x;
   background-color: #4ea0ff;
   border-top: 15px solid #4ea0ff;
 }
@@ -20,9 +21,18 @@ header {
   width: 200px;
 }
 /* /header styling */
+/* reimposto i margini degli h1,h2...h6  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h3,
@@ -41,6 +51,12 @@ h3 > em {
   flex-flow: row nowrap;
   gap: 0.5rem; /* gap è lo spazio tra i due tim */
 }
+
+section ul {
+  list-style: inside;
+  padding: 0;
+}
+
 /* ====================table styling========================= */
 table {
   text-align: left;
