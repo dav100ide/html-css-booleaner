@@ -58,6 +58,25 @@ tbody tr:last-child {
 }
 tbody tr td:first-child,
 tbody tr td:nth-child(2) {
-  color: red;
+  width: 30%;
 }
 /* ====================/table styling============================ */
+
+.item-background {
+  padding: 15px;
+  color: white;
+  background-size: cover;
+  width: 200px;
+  height: 150px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.monitor {
+  background-image: url(../images/monitor.jpg);
+}
+
+.graph {
+  background-image: url(../images/graph.jpg);
+}
