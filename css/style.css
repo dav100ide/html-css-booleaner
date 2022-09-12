@@ -39,7 +39,7 @@ em {
   display: flex;
   /* faccio stare sempre sulla stessa riga i due TIM */
   flex-flow: row nowrap;
-  gap: 0.5em; /* gap è lo spazio tra i due tim */
+  gap: 0.5rem; /* gap è lo spazio tra i due tim */
 }
 
 section {
